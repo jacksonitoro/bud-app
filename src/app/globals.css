@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #87ceeb;
   --foreground: #171717;
 }
 
@@ -18,4 +18,17 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+button {
+  font-family: inherit;
+}
+
+h1, h2 {
+  color: var(--foreground);
 }
